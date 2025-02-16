@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra Motor Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ultra Motor Group</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">AI Gearhead</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Destination for Performance Motorcycle Parts</h2>
+        <p>Explore our premium selection of high-performance motorcycle parts and custom bike kits.</p>
+        <button onclick="openChatbot()">Chat with AI Gearhead</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

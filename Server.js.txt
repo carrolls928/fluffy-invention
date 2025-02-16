@@ -1,0 +1,16 @@
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.use(express.static('public'));
+
+app.get('/api/products', (req, res) => {
+    res.json([
+        { id: 1, name: "Performance Exhaust", price: "$499" },
+        { id: 2, name: "Racing Tires", price: "$299" }
+    ]);
+});
+
+app.listen(port, () => {
+    console.log(`Ultra Motor Group server running on http://localhost:${port}`);
+});
